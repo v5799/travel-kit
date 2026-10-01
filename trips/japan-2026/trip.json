@@ -1,20 +1,20 @@
 {
   "isSample": false,
-  "title": "Osaka + Tokyo",
+  "title": "Osaka + Tokyo + Fukuoka",
   "startDate": "2026-10-14",
-  "endDate": "2026-10-24",
+  "endDate": "2026-10-28",
   "travelers": [
     {
       "name": "Varun",
-      "legs": "Oct 14-24"
+      "legs": "Oct 14-28 (Osaka, Tokyo, Fukuoka solo)"
     },
     {
       "name": "Aunt",
-      "legs": "confirm"
+      "legs": "TBD (with Varun in Osaka/Tokyo)"
     },
     {
       "name": "Cousin",
-      "legs": "confirm"
+      "legs": "TBD (with Varun in Osaka/Tokyo)"
     }
   ],
   "feedbackUrl": "",

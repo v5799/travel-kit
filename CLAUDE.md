@@ -1,6 +1,6 @@
 # travel-kit — rules for Claude
 
-Owner: Varun. Frequent traveler, speaks some Japanese. Current trip: trips/japan-2026 (Osaka + Tokyo, Oct 14-24, 2026, with aunt and cousin for parts; first Japan trip for them).
+Owner: Varun. Frequent traveler, speaks some Japanese. Current trip: trips/japan-2026 (Osaka + Tokyo, Oct 14-28, 2026, with aunt and cousin for parts; first Japan trip for them).
 
 ## Principles
 1. Claude organizes, the human decides. Offer 3 options with tradeoffs; never pick silently.
