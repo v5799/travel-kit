@@ -1,8 +1,25 @@
 # travel-kit
 Travel assistants
-You are in an empty repo named travel-kit. This is a file-based travel assistant for Varun. Do not add features, files or dependencies beyond what is listed.
+You are in a repo named travel-kit (a README may already exist; overwrite it). This is a file-based travel assistant for Varun. Do not add features, files or dependencies beyond what is listed.
 
 Create EXACTLY these files with EXACTLY this content (paths relative to the repo root). Use ~~~~ blocks as file boundaries.
+
+FILE: .claude/skills/arrival-card/SKILL.md
+~~~~
+---
+name: arrival-card
+description: Use for each confirmed or requested booking. Builds the on-the-ground details people actually need at the door.
+---
+
+For a given item, fill in (verify with sources, cite date; mark unknowns as unknown):
+1. Address in English and Japanese (copy exact text so it can be shown to a taxi driver).
+2. Nearest station, exit number, and walking directions in plain words ("exit 14, straight 6 minutes, building with green sign, 3F").
+3. How to enter: bell, lift, shoes, queue rules, which door.
+4. Arrive-by time and what happens if late. Name the booking is under. Cash-only? Cancellation cutoff.
+5. "Say at the door": one Japanese line with romaji and English.
+6. Photo request: ask the owner for one entrance or storefront photo (a Google Maps Street View screenshot is fine) and a caption. Never use stock or AI images.
+Output as an object matching the item schema in share-export.
+~~~~
 
 FILE: .claude/skills/budget-log/SKILL.md
 ~~~~
@@ -12,6 +29,24 @@ description: Use to log or summarize spending.
 ---
 
 Append rows to trips/<trip>/budget.csv (JPY). Summarize by category and per person on request. Convert currency only with a stated rate and date.
+~~~~
+
+FILE: .claude/skills/chat-ingest/SKILL.md
+~~~~
+---
+name: chat-ingest
+description: Use to turn an exported group chat (iMessage .txt/.html) into a structured trip digest: bookings, recommendations, open questions.
+---
+
+Input: a chat export placed in trips/japan-2026/private/ (gitignored) or provided in the conversation. Work locally; never commit exports.
+
+Steps:
+1. Read in date order. Only extract trip-related content (places, dates, bookings, preferences, constraints, who is joining what).
+2. Produce a digest with: (a) Bookings made, with date/time, venue, who made them, and evidence; (b) Requests or ideas not yet booked; (c) Recommendations people gave (who, what, why); (d) Open questions and decisions needed; (e) Conflicts or dates that do not line up.
+3. Mark confidence: stated plainly in chat = confirmed in chat; implied = unverified. Never mark a booking confirmed unless someone said so; ask the owner to verify against the actual confirmation.
+4. Propose updates to anchors.md, pools/ and decisions.md and show a diff. Do not apply without approval.
+5. On later runs, process only messages after the last processed date (record it in decisions.md) and report what changed.
+Privacy: ignore personal chatter not about the trip. Omit phone numbers, addresses of private homes, and anything sensitive about the other people. Do not quote messages in anything that goes to share/.
 ~~~~
 
 FILE: .claude/skills/day-planner/SKILL.md
@@ -125,10 +160,18 @@ FILE: .claude/skills/share-export/SKILL.md
 ~~~~
 ---
 name: share-export
-description: Use to publish the group page data.
+description: Use to publish the group page data. Writes a sanitized share/trip.json for the Lovable page.
 ---
 
-Read trip files and write share/trip.json using the schema in trips/japan-2026/trip.json. Strip phone numbers, confirmation codes, payment and passport info. Show the owner a diff before they paste it into the Lovable page.
+Read anchors.md, pools/, decisions.md and write share/trip.json using the schema in trips/japan-2026/trip.json.
+Item fields: time, title, type (meal|transit|activity|stay), status (confirmed|requested|idea), area, address_en, address_ja, maps_url, station, how_to_get_there, how_to_enter, arrive_by, reservation_name, cash_only, cancel_by, notes[], say_at_door{ja,romaji,en}, photo{url,caption}.
+Day fields: date, city, title, who[], items[], options[{title, why, area, walk_minutes, maps_url}].
+Food fields: name, area, city, price_band, status, why, maps_url, photo.
+
+Include only what helps people on the ground: address in English and Japanese, station and exit, how to enter, arrive-by, name on the booking, cash-only, cancel-by, one-line notes.
+STRIP: phone numbers (except 110 and 119), confirmation codes, passport, card or payment info, email addresses, anything from private chats not meant for the group.
+Set status honestly: confirmed only after the owner says it is confirmed. Leave out empty fields.
+Show the owner a diff before they paste it into the Lovable page (public/trip.json).
 ~~~~
 
 FILE: .claude/skills/trip-intake/SKILL.md
@@ -173,6 +216,9 @@ Read profile/*, trips/<trip>/decisions.md, anchors.md, then ask what we are doin
 
 ## Models
 Default Sonnet for planning. Haiku is fine for routine runs (digest, budget log). Escalate only if stuck.
+
+9. Chat exports (private/) stay local and uncommitted. Use only trip-related content; protect other people's personal details.
+10. Optimize the shared page for use on the ground: address in English and Japanese, station and exit, how to enter, status, one photo only when it helps find the place.
 ~~~~
 
 FILE: README.md
@@ -183,6 +229,8 @@ Reusable, file-based travel assistant. Open this folder in Claude Code and say: 
 Flow: intake -> restaurant-shortlist -> reservation-drafter (you submit) -> day-planner -> group-digest -> share-export -> publish to the Lovable page.
 
 Skills live in .claude/skills/<name>/SKILL.md. Add new trips under trips/<name>/.
+
+New: chat-ingest (digest an exported group chat), arrival-card (door-level details per booking).
 ~~~~
 
 FILE: profile/group.md
@@ -229,19 +277,48 @@ FILE: trips/japan-2026/pools/README.md
 Flexible options grouped by area, e.g. ginza.md, shibuya.md, namba.md. One line each: name | type | why | hours/closed days | verified date.
 ~~~~
 
+FILE: trips/japan-2026/private/README.md
+~~~~
+Put chat exports here. This folder is gitignored, so it never reaches GitHub. Cloud sessions cannot see it; process exports on a laptop session or upload them to a Claude chat.
+~~~~
+
 FILE: trips/japan-2026/trip.json
 ~~~~
 {
-  "trip": "Japan 2026",
-  "dates": {"start": "2026-10-14", "end": "2026-10-24"},
-  "cities": ["Osaka", "Tokyo"],
-  "travelers": ["Varun", "Aunt", "Cousin"],
-  "days": [
-    {"date": "2026-10-14", "city": "Osaka", "fixed": [], "options": []}
+  "isSample": false,
+  "title": "Osaka + Tokyo",
+  "startDate": "2026-10-14",
+  "endDate": "2026-10-24",
+  "travelers": [
+    {
+      "name": "Varun",
+      "legs": "Oct 14-24"
+    },
+    {
+      "name": "Aunt",
+      "legs": "confirm"
+    },
+    {
+      "name": "Cousin",
+      "legs": "confirm"
+    }
   ],
-  "food_shortlist": [],
-  "practical": {"transport": "", "esim": "", "etiquette": []}
+  "feedbackUrl": "",
+  "days": [
+    {
+      "date": "2026-10-14",
+      "city": "Osaka",
+      "title": "",
+      "who": [
+        "Varun"
+      ],
+      "items": [],
+      "options": []
+    }
+  ],
+  "food": [],
+  "practical": []
 }
 ~~~~
 
-AFTER CREATING FILES: make scripts executable if any, commit with message 'Initial scaffold', and push. Then reply in 5 lines: what was created, and the first question from the trip-intake skill. Do not run installs. Never book or pay for anything.
+AFTER CREATING FILES: commit with message 'Initial scaffold' and push. Then reply in 5 lines: what was created, and the first question from the trip-intake skill. Do not run installs. Never book or pay for anything.
