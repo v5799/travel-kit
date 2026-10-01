@@ -95,7 +95,7 @@
         {
           "title": "Aunt + cousin travel Tokyo to Osaka",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "notes": [
             "Arrive in the afternoon"
           ]
@@ -115,20 +115,18 @@
           "type": "meal",
           "status": "confirmed",
           "area": "Shinsaibashi, Osaka",
-          "address_en": "2-8-26 Higashi-Shinsaibashi-suji, Chuo-ku, Osaka 542-0083 (2F)",
-          "address_ja": "〒542-0083 大阪府大阪市中央区東心斎橋2-8-26 2階 (check on Google Maps)",
+          "address_en": "2-8-26 Higashi-Shinsaibashi-suji, Chuo-ku, Osaka 542-0083 (FUKU BLD, 2F)",
+          "address_ja": "〒542-0083 大阪府大阪市中央区東心斎橋2-8-26 2階",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Maruhana+Shinsaibashi+crab+Osaka",
-          "station": "Shinsaibashi Station (about 4 min walk; exit to verify)",
+          "station": "Shinsaibashi Station (Midosuji Line), about 4 min walk; Nagahoribashi Station is also close",
           "arrive_by": "19:50 (suggested)",
-          "reservation_name": "Varun",
           "say_at_door": {
             "ja": "予約しています。3名です。",
             "romaji": "Yoyaku shite imasu. San-mei desu.",
             "en": "I have a reservation for three."
           },
           "notes": [
-            "Booked by cousin",
-            "Cash-only and cancel-by: to verify"
+            "Credit cards are accepted (Visa, Mastercard, Amex, JCB, Diners). Cancel-by: to verify"
           ]
         }
       ]
@@ -212,6 +210,13 @@
       ],
       "items": [
         {
+          "time": "11:00",
+          "title": "Varun checks out of Hotel Nikko Osaka",
+          "type": "stay",
+          "status": "confirmed",
+          "area": "Nishi-Shinsaibashi, Osaka"
+        },
+        {
           "time": "12:00",
           "title": "Osaka to Tokyo shinkansen (booked by aunt)",
           "type": "transit",
@@ -219,13 +224,6 @@
           "notes": [
             "Exact times to come"
           ]
-        },
-        {
-          "time": "11:00",
-          "title": "Varun checks out of Hotel Nikko Osaka",
-          "type": "stay",
-          "status": "confirmed",
-          "area": "Nishi-Shinsaibashi, Osaka"
         },
         {
           "time": "15:00",
@@ -239,7 +237,7 @@
             "Aunt + cousin: same hotel, own room, Oct 19-24"
           ],
           "address_en": "4-31-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
-          "address_ja": "〒160-0023 東京都新宿区西新宿4-31-1 (check on Google Maps)"
+          "address_ja": "〒160-0023 東京都新宿区西新宿4-31-1"
         }
       ]
     },
@@ -324,7 +322,7 @@
           "type": "transit",
           "status": "booked",
           "notes": [
-            "Details to come"
+            "Booked separately; airline and time to come"
           ]
         }
       ]
