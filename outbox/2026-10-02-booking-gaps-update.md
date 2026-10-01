@@ -1,6 +1,6 @@
 - date: 2026-10-02
 - from: travel-kit
 - topic: Update to the 2026-10-02 booking-deadlines note
-- what changed: Varun says the Oct 24 Tokyo -> Fukuoka flight is booked; the Oct 13 Osaka night is assumed covered by a Nikko extension (not yet extended); hotel payments are paid or due at the hotel.
+- what changed: Varun says the Oct 24 Tokyo -> Fukuoka flight is booked; the Oct 13 Osaka night is NOT booked (OPEN; options: extend Nikko or an airport hotel); hotel payments are paid or due at the hotel.
 - source of truth: trips/japan-2026/anchors.md ("Hotels", "Cancel-by deadlines", "Varun's to-book list")
-- requested action: Keep the Nikko cancel-by (Oct 12 23:59 JST) as the deadline for extending to Oct 13; drop the "Oct 24 flight OPEN" item from the earlier note.
+- requested action: Treat Oct 12 23:59 JST (free changes on the Nikko booking) as the deadline for deciding the Oct 13 night; drop the "Oct 24 flight OPEN" item from the earlier note.

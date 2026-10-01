@@ -18,7 +18,7 @@ Status is CONFIRMED only where Varun or a hotel card says so. Everything else ne
 ## Hotels
 - Osaka (Higashi-Shinsaibashi): FLAG, aunt + cousin | dates OPEN | CONFIRMED (hotel)
 - Osaka: Hotel Nikko Osaka, 1-3-3 Nishi-Shinsaibashi, Chuo-ku (大阪府大阪市中央区西心斎橋1-3-3). Varun, 1 adult, Standard Small Double non-smoking, breakfast included. Check-in Wed Oct 14 15:00-00:00, out Mon Oct 19 by 11:00 (5 nights). Direct access from Shinsaibashi subway Exit 8. Airport shuttle to the airport 07:20, 12:10, 15:00 (charges apply). Accommodation tax paid at hotel. Booked on a relative's Booking.com account (changes go through that account). | CONFIRMED (Booking.com email). CANCEL-BY: free until Oct 12 23:59 JST; from Oct 13 full price. Email shows "total paid 0": Varun says paid already or he pays at the hotel (2026-10-02). Tell the hotel each guest's full name (not stored here).
-- Osaka Tue Oct 13 night: ASSUMED Hotel Nikko Osaka will cover it too (Varun 2026-10-02: "just assume Nikko will be booked as well"). Not yet extended on the booking I have seen (which starts Oct 14); Varun handles it (extension via the relative's Booking.com account; the current free-cancellation window ends Oct 12 23:59 JST). Nikko check-in window is 15:00-00:00 so a 21:15 landing is fine.
+- Osaka Tue Oct 13 night: NOT BOOKED, nothing assumed (Varun 2026-10-02 correction). OPEN, HIGH PRIORITY. Varun lands Kansai 21:15; the Nikko booking starts Oct 14. Options: (A) extend Hotel Nikko Osaka to start Oct 13 (through the relative's Booking.com account; free changes until Oct 12 23:59 JST); (B) an airport hotel near Kansai. Nikko check-in window is 15:00-00:00, so a 21:15 landing works if option A is done.
 - Tokyo: THE KNOT TOKYO Shinjuku, 4-31-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023 (〒160-0023 東京都新宿区西新宿4-31-1). VARUN'S OWN booking (separate from the aunt's): Deluxe Twin Park View, non-smoking, in Mon Oct 19 15:00-00:00, out Sat Oct 24 by 10:00, 5 nights. Photo ID and a credit card needed at check-in; tell the hotel in advance if arriving after check-in hours; accommodation tax paid at hotel. | CONFIRMED (Booking.com email). CANCEL-BY: free until Oct 17 23:59 JST; from Oct 18 first night charged. Email shows "total paid 0": Varun says paid already or he pays at the hotel (2026-10-02).
 - Tokyo: aunt's separate KNOT booking, same hotel, different room | Oct 19-24 per Varun (he believes; earlier card said "4 nights", he will sort it out) | BOOKED per Varun
 - Fukuoka Oct 24-28 (4 nights), Varun solo | not booked; shortlist in pools/fukuoka-stay.md (verify live) | OPEN
@@ -47,10 +47,10 @@ Drafts (not sent): trips/japan-2026/requests.md
 ## Cancel-by deadlines (JST)
 - Hotel Nikko Osaka: Oct 12 23:59
 - THE KNOT TOKYO (Varun's booking): Oct 17 23:59
-- Night of Oct 13: assumed covered by a Nikko extension (Varun to do before Oct 12 23:59 JST to stay inside free cancellation).
+- Night of Oct 13 (Osaka): OPEN, not booked. Option A (extend Nikko via the relative's Booking.com account) is free to change until Oct 12 23:59 JST; option B airport hotel.
 
 ## Varun's to-book list (Claude drafts; Varun books and pays). Details in requests.md
-1. Nikko: extend to include night of Oct 13 (via the relative's Booking.com account).
+1. Night of Oct 13 (OPEN): extend Hotel Nikko Osaka to start Oct 13 (via the relative's Booking.com account, free changes until Oct 12 23:59 JST) or book an airport hotel near Kansai.
 2. Taian solo dinner, Fri Oct 16 first, fallback Sun Oct 18 (closed Mondays) | drafts ready.
 3. Miko Sushi Ginza weekday lunch Oct 20-23 | draft ready.
 4. Fukuoka hotel Oct 24-28 | shortlist in pools/fukuoka-stay.md.
