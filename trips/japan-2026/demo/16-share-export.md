@@ -1,6 +1,7 @@
 # 16 share-export
 **Asked:** Regenerate share/trip.json for the Lovable page from the current anchors, isSample true until Varun confirms; validate against the schema; summary; confirm no booking/phone numbers/guest full names.
 ## Output
+(UPDATE 2026-10-02: trip.json now starts Oct 13 and carries Varun's named hotels; counts below are the 2026-10-01 snapshot.)
 - Wrote `share/trip.json` (identical copy in `trips/japan-2026/trip.json`, so they cannot drift).
 - **Schema check (fields from share-export SKILL.md): PASSED**, 0 errors. Only allowed item/day/option/food fields; item type in meal|transit|activity|stay; status in confirmed|requested|idea.
 - **Summary:** isSample = true; 13 day entries (Oct 14-19, 20-24, 25, 28); 11 items; 10 food entries; 4 items marked confirmed (FLAG stay, Maruhana crab dinner, THE KNOT check-in and check-out); options listed for Oct 16, 17, 18, 20, 25.

@@ -19,7 +19,7 @@ Luggage forwarding steps (first-timer):
 5. Carry a day bag (clothes for 1 night) on the train; keep passport/valuables with you.
 6. Ask THE KNOT to confirm they accept parcels before arrival (verify). Owner of this task: OPEN. Varun stays in a different Osaka hotel and sends his own bag.
 
-## (c) Varun, Wed Oct 14 evening: KIX -> hotel near Dotonbori
+## (c) Varun: KIX -> Osaka hotel. UPDATE 2026-10-02: he now lands Tue Oct 13 at 21:15 (leave airport ~22:30; last Rapi:t ~23:00 reported, verify) and the hotel is Hotel Nikko Osaka (Shinsaibashi Station Exit 8) from Oct 14: the night of Oct 13 is unbooked. Original 2026-10-01 text follows.
 Land ~18:00; allow ~45-75 min for immigration/customs/bags (est.). Hotel name OPEN.
 1. **Nankai Rapi:t to Namba (all reserved):** 34-39 min, 1,520 e-ticket / 1,670 paper; every ~30 min 06:00-23:00 (verify).
 2. **Nankai Airport Express / Rapid** (cheaper, a bit slower; verify fare/time).

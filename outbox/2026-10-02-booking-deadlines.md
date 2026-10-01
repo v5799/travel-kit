@@ -1,0 +1,9 @@
+- date: 2026-10-02
+- from: travel-kit
+- topic: Japan trip booking deadlines and open booking gaps
+- what changed: Varun's two hotels are CONFIRMED (Booking.com, relative's account); outbound flight corrected, which leaves one unbooked night.
+- source of truth: trips/japan-2026/anchors.md (sections "Hotels", "Travel", "Cancel-by deadlines"); trips/japan-2026/decisions.md (2026-10-02 entries)
+- requested action:
+  - Cancel-by: Hotel Nikko Osaka free until Oct 12 23:59 JST (then full price); THE KNOT TOKYO (Varun's booking) free until Oct 17 23:59 JST (then first night).
+  - Payment check: both Booking.com emails show "total paid 0" (card charged automatically); Varun to verify payment completed.
+  - OPEN: outbound flight resolved (Varun lands Kansai Tue Oct 13 21:15, not Oct 14), so the night of Oct 13 in Osaka is NOT booked (extend Nikko via the relative's account before Oct 12 23:59 JST, or an airport hotel). The Oct 24 Tokyo -> Fukuoka flight is not in the agent itinerary: status OPEN.

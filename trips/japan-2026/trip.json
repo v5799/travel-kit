@@ -1,13 +1,13 @@
 {
   "isSample": true,
   "title": "Osaka + Tokyo + Fukuoka",
-  "startDate": "2026-10-14",
+  "startDate": "2026-10-13",
   "endDate": "2026-10-28",
   "feedbackUrl": "",
   "travelers": [
     {
       "name": "Varun",
-      "legs": "Oct 14-28 (Fukuoka solo Oct 24-28)"
+      "legs": "Oct 13-28 (Fukuoka solo Oct 24-28)"
     },
     {
       "name": "Aunt",
@@ -20,9 +20,36 @@
   ],
   "days": [
     {
+      "date": "2026-10-13",
+      "city": "Osaka",
+      "title": "Varun lands Osaka late evening",
+      "who": [
+        "Varun"
+      ],
+      "items": [
+        {
+          "time": "21:15",
+          "title": "Varun arrives Osaka Kansai from Hong Kong",
+          "type": "transit",
+          "status": "booked",
+          "area": "Kansai Airport",
+          "how_to_get_there": "Leave the airport about 22:30; last Nankai Rapi:t to Namba is reported about 23:00; Airport Express and limousine bus run later (verify live)"
+        },
+        {
+          "title": "Hotel for the night of Oct 13",
+          "type": "stay",
+          "status": "idea",
+          "area": "Osaka",
+          "notes": [
+            "Not booked yet: to decide (extend Hotel Nikko or an airport hotel)"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "city": "Osaka",
-      "title": "Varun lands Osaka; aunt/cousin land Tokyo",
+      "title": "Free day for Varun in Osaka; aunt/cousin land Tokyo",
       "who": [
         "Varun",
         "Aunt",
@@ -30,14 +57,17 @@
       ],
       "items": [
         {
-          "title": "Varun arrives Osaka (direct, ~18:00)",
-          "type": "transit",
-          "status": "booked",
-          "area": "Kansai Airport",
-          "how_to_get_there": "Nankai Rapi:t to Namba, about 35 min, then walk to hotel near Dotonbori (verify fares live)",
+          "title": "Varun checks in at Hotel Nikko Osaka (5 nights)",
+          "type": "stay",
+          "status": "confirmed",
+          "area": "Nishi-Shinsaibashi, Osaka",
+          "address_en": "1-3-3 Nishi-Shinsaibashi, Chuo-ku, Osaka",
+          "address_ja": "大阪府大阪市中央区西心斎橋1-3-3",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Nikko+Osaka",
+          "station": "Shinsaibashi Station, direct access, Exit 8",
+          "arrive_by": "Check-in 15:00 to midnight",
           "notes": [
-            "Flight details to come",
-            "Hotel name to come"
+            "Check-out Oct 19 by 11:00"
           ]
         },
         {
@@ -46,7 +76,7 @@
           "status": "booked",
           "area": "Ginza, Tokyo",
           "notes": [
-            "Booked per Varun; hotel card not seen; dates to come"
+            "Hotel card not seen; dates to come"
           ]
         }
       ]
@@ -189,15 +219,25 @@
           ]
         },
         {
+          "time": "11:00",
+          "title": "Varun checks out of Hotel Nikko Osaka",
+          "type": "stay",
+          "status": "confirmed",
+          "area": "Nishi-Shinsaibashi, Osaka"
+        },
+        {
           "time": "15:00",
-          "title": "Check in THE KNOT TOKYO Shinjuku (5 nights)",
+          "title": "Check in THE KNOT TOKYO Shinjuku (Varun, 5 nights)",
           "type": "stay",
           "status": "confirmed",
           "area": "Shinjuku, Tokyo",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=THE+KNOT+TOKYO+Shinjuku",
           "notes": [
-            "Check-out Oct 24 at 10:00"
-          ]
+            "Check-out Oct 24 by 10:00",
+            "Aunt + cousin's own booking: dates to verify"
+          ],
+          "address_en": "4-31-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
+          "address_ja": "〒160-0023 東京都新宿区西新宿4-31-1 (check on Google Maps)"
         }
       ]
     },
@@ -264,7 +304,7 @@
       "items": [
         {
           "time": "10:00",
-          "title": "Check out THE KNOT TOKYO Shinjuku",
+          "title": "Check out THE KNOT TOKYO Shinjuku (Varun)",
           "type": "stay",
           "status": "confirmed",
           "area": "Shinjuku, Tokyo"
@@ -280,9 +320,9 @@
         {
           "title": "Varun flies Tokyo to Fukuoka",
           "type": "transit",
-          "status": "booked",
+          "status": "idea",
           "notes": [
-            "Airline and time to come"
+            "Flight booking status to confirm; airline and time to come"
           ]
         }
       ]
@@ -316,17 +356,19 @@
     {
       "date": "2026-10-28",
       "city": "Fukuoka",
-      "title": "Varun flies home via Hong Kong",
+      "title": "Varun flies Fukuoka to Hong Kong to Chennai",
       "who": [
         "Varun"
       ],
       "items": [
         {
-          "title": "Fukuoka to Hong Kong to Chennai",
+          "time": "14:15",
+          "title": "Fukuoka 14:15 -> Hong Kong 17:25 -> Chennai (arrives Oct 29, 00:35)",
           "type": "transit",
           "status": "booked",
+          "area": "Fukuoka Airport",
           "notes": [
-            "Airline and times to come"
+            "Business class per Varun's itinerary"
           ]
         }
       ]
@@ -417,7 +459,8 @@
   ],
   "practical": [
     "Sample plan: nothing here is final until Varun confirms.",
-    "Hotels: FLAG (Osaka, aunt/cousin); THE KNOT TOKYO Shinjuku Oct 19-24.",
+    "Varun: Hotel Nikko Osaka Oct 14-19; THE KNOT TOKYO Shinjuku Oct 19-24. Night of Oct 13 in Osaka: still to book.",
+    "Aunt + cousin: FLAG (Osaka); Tokyo hotels to verify.",
     "Prices and availability: verify live before booking."
   ]
 }
