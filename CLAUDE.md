@@ -11,12 +11,14 @@ Owner: Varun. Frequent traveler, speaks some Japanese. Current trip: trips/japan
 6. Log every decision in trips/<trip>/decisions.md with date and reason. Read it at the start of every session.
 7. Keep files small. Markdown / JSON / CSV only. No database, no secrets in the repo.
 8. Group of three: respect each person's constraints in profile/group.md (diet, pace, budget comfort).
+9. Chat exports (trips/<trip>/private/) stay local and uncommitted. Use only trip-related content; protect other people's personal details.
+10. Optimize the shared page for use on the ground: address in English and Japanese, station and exit, how to enter, status, one photo only when it helps find the place.
+
+## Cloud vs laptop
+Cloud sessions are temporary. Anything not committed and pushed is lost when the session ends, and gitignored files (private/) never survive. Commit decisions.md, anchors.md, budget.csv and trip.json before ending a cloud session. Process chat exports only in a laptop session.
 
 ## Session start checklist
 Read profile/*, trips/<trip>/decisions.md, anchors.md, then ask what we are doing today.
 
 ## Models
 Default Sonnet for planning. Haiku is fine for routine runs (digest, budget log). Escalate only if stuck.
-
-9. Chat exports (private/) stay local and uncommitted. Use only trip-related content; protect other people's personal details.
-10. Optimize the shared page for use on the ground: address in English and Japanese, station and exit, how to enter, status, one photo only when it helps find the place.

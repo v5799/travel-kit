@@ -1,4 +1,6 @@
 .env
 *.key
-trips/*/private/
+# chat exports stay local. Only the folder's README is tracked.
+trips/*/private/*
+!trips/*/private/README.md
 .DS_Store
