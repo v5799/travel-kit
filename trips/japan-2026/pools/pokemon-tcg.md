@@ -1,2 +1,3 @@
 # Pokemon Center + TCG single-card shops — ideas only
-Varun is interested in Pokemon Centers and TCG single-card shops (Osaka, Tokyo). No research done yet (OPEN): shops, hours, closed days, tax-free, cash-only flags to be verified live via web search before listing.
+Scope: Osaka and Tokyo only (Fukuoka skipped for now, Varun 2026-10-01).
+Not yet researched (OPEN): shop names, hours, closed days, tax-free, cash-only flags. Verify live via web search before listing.

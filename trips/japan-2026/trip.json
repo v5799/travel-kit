@@ -10,11 +10,11 @@
     },
     {
       "name": "Aunt",
-      "legs": "Oct 15 - Oct 24 (exit date OPEN)"
+      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; home from Tokyo after Oct 24 (OPEN)"
     },
     {
       "name": "Cousin",
-      "legs": "Oct 15 - Oct 24 (exit date OPEN)"
+      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; home from Tokyo after Oct 24 (OPEN)"
     }
   ],
   "feedbackUrl": "",
@@ -22,14 +22,18 @@
     {
       "date": "2026-10-14",
       "city": "Osaka",
-      "title": "Varun lands ~18:00",
+      "title": "Varun lands Osaka ~18:00; aunt/cousin land Tokyo (evening)",
       "who": [
         "Varun"
       ],
       "items": [
         {
-          "what": "Arrive Osaka (direct)",
-          "status": "idea"
+          "what": "Varun arrives Osaka (direct)",
+          "status": "stated"
+        },
+        {
+          "what": "Aunt + cousin arrive Tokyo, night at Muji Hotel Ginza",
+          "status": "stated"
         }
       ],
       "options": []
@@ -37,7 +41,7 @@
     {
       "date": "2026-10-15",
       "city": "Osaka",
-      "title": "Crab dinner",
+      "title": "Aunt/cousin Tokyo -> Osaka (afternoon); crab dinner",
       "who": [
         "Varun",
         "Aunt",
@@ -45,8 +49,12 @@
       ],
       "items": [
         {
+          "what": "Aunt + cousin travel Tokyo to Osaka",
+          "status": "stated"
+        },
+        {
           "time": "20:00",
-          "what": "King crab, Maruhana Shinsaibashi (party size assumed 3)",
+          "what": "King crab, Maruhana Shinsaibashi (party of 3)",
           "status": "confirmed"
         }
       ],
@@ -61,13 +69,15 @@
       ],
       "items": [],
       "options": [
-        "Varun's own plans in Osaka; no Kyoto"
+        "Varun's own plans in Osaka; no Kyoto",
+        "Kashiwaya Osaka Senriyama (lunch/dinner, check live)",
+        "Taian (Osaka, closed Mondays)"
       ]
     },
     {
       "date": "2026-10-17",
       "city": "Osaka",
-      "title": "Relaxed day, restaurant night",
+      "title": "Deliberately relaxed day, restaurant night",
       "who": [
         "Varun",
         "Aunt",
@@ -103,8 +113,8 @@
       ],
       "items": [
         {
-          "what": "Osaka to Tokyo train, luggage forwarding",
-          "status": "proposed"
+          "what": "Osaka to Tokyo train ~12:00, booked by aunt, luggage forwarding planned",
+          "status": "stated"
         },
         {
           "time": "15:00",
@@ -125,7 +135,7 @@
       ],
       "items": [],
       "options": [
-        "Weekday uni lunch ideas (pools/uni.md)"
+        "Weekday uni lunch: Miko Sushi Ginza (check live, Tue-Fri Oct 20-23)"
       ]
     },
     {
@@ -167,7 +177,7 @@
     {
       "date": "2026-10-24",
       "city": "Tokyo > Fukuoka",
-      "title": "Aunt/cousin leave after this date; Varun to Fukuoka",
+      "title": "Aunt/cousin home after this date (OPEN); Varun to Fukuoka",
       "who": [
         "Varun",
         "Aunt",
@@ -217,6 +227,21 @@
     {
       "name": "Yakiniku Ginza Chikamitsu Namiki-dori",
       "city": "Tokyo",
+      "status": "idea"
+    },
+    {
+      "name": "Taian (lead Osaka ultra-premium)",
+      "city": "Osaka",
+      "status": "idea"
+    },
+    {
+      "name": "Miko Sushi Ginza uni lunch",
+      "city": "Tokyo",
+      "status": "idea"
+    },
+    {
+      "name": "Kashiwaya Osaka Senriyama",
+      "city": "Osaka",
       "status": "idea"
     }
   ],

@@ -15,3 +15,5 @@ FOOD FILTER for ultra-premium requests (Varun, 2026-10-01):
 - Per-person ceiling: soft 35,000 yen, hard max 40,000. Show options near or above the line, labelled honestly "very expensive for the filter" or "probably not worth the price".
 - Prefer the cheapest booking platform (e.g. OMAKASE 390 yen/seat or the restaurant's own system over resellers adding 8,000 yen or per-person fees); flag non-refundable fees and cancel-by dates.
 - Check seasonal fit for the travel dates. See pools/ultra-premium.md.
+
+Budget numbers: everyday (non-splurge) meals 3,000-9,000 yen per person (group); ultra-premium 35k soft / 40k hard. Flag anything over budget honestly. Record each restaurant's solo rule (min guests, private-room fees, counter seating).
