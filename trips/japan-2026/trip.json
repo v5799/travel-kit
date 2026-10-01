@@ -10,11 +10,11 @@
     },
     {
       "name": "Aunt",
-      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; home from Tokyo after Oct 24 (OPEN)"
+      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; fly home from Tokyo Sat Oct 24 late morning/afternoon"
     },
     {
       "name": "Cousin",
-      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; home from Tokyo after Oct 24 (OPEN)"
+      "legs": "Oct 14 Tokyo (Muji Hotel Ginza, stated), Oct 15-24 with Varun; fly home from Tokyo Sat Oct 24 late morning/afternoon"
     }
   ],
   "feedbackUrl": "",
@@ -28,7 +28,7 @@
       ],
       "items": [
         {
-          "what": "Varun arrives Osaka (direct)",
+          "what": "Varun arrives Osaka (direct); hotel near Dotonbori (name OPEN)",
           "status": "stated"
         },
         {
@@ -177,7 +177,7 @@
     {
       "date": "2026-10-24",
       "city": "Tokyo > Fukuoka",
-      "title": "Aunt/cousin home after this date (OPEN); Varun to Fukuoka",
+      "title": "Aunt/cousin fly home (late morning/afternoon); Varun to Fukuoka",
       "who": [
         "Varun",
         "Aunt",
@@ -211,13 +211,13 @@
     {
       "date": "2026-10-28",
       "city": "Fukuoka",
-      "title": "Varun flies home via Hong Kong",
+      "title": "Varun flies home via Hong Kong to Chennai",
       "who": [
         "Varun"
       ],
       "items": [
         {
-          "what": "Varun flies Fukuoka to home via Hong Kong (airline/times OPEN)",
+          "what": "Varun flies Fukuoka to Hong Kong to Chennai (airline/times OPEN)",
           "status": "stated"
         }
       ],

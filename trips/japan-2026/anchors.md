@@ -6,13 +6,13 @@ Status is CONFIRMED only where Varun or a hotel card says so. Everything else ne
 - Wed Oct 14 | evening | Aunt + cousin land TOKYO, night at Muji Hotel Ginza (aunt's separate booking) | Tokyo | stated by Varun (hotel card not seen; flight + hotel dates OPEN)
 - Thu Oct 15 | ? | Aunt + cousin Tokyo -> Osaka, arrive afternoon | Tokyo>Osaka | stated by Varun (train/flight + time OPEN)
 - Mon Oct 19 | ~12:00 | Group Osaka -> Tokyo train, FINAL, booked by aunt | Osaka>Tokyo | stated by Varun (times OPEN). Luggage forwarding planned, owner OPEN.
-- Sat Oct 24 | ? | Varun flies Tokyo -> Fukuoka (solo leg Oct 24-28) | Tokyo>Fukuoka | stated by Varun (airline, time, airport OPEN; Varun will show the booking)
-- After Sat Oct 24 | ? | Aunt + cousin fly home from Tokyo | Tokyo | OPEN (day, flight, departure airport)
-- Wed Oct 28 | ? | Varun flies home from Fukuoka via Hong Kong | Fukuoka | stated by Varun (airline, times OPEN; Varun will show the booking)
+- Sat Oct 24 | ? | Varun flies Tokyo -> Fukuoka (solo leg Oct 24-28) | Tokyo>Fukuoka | stated by Varun (airline, time, airport OPEN; no other details needed for now)
+- Sat Oct 24 | late morning/afternoon | Aunt + cousin fly home from Tokyo | Tokyo | stated by Varun (airport + flight OPEN, not needed yet). Varun does not need to coordinate with them for his own Fukuoka flight.
+- Wed Oct 28 | ? | Varun flies home Fukuoka -> Hong Kong -> Chennai | Fukuoka | stated by Varun (airline, times OPEN; no other details needed for now)
 
 ## Hotels
 - Osaka (Higashi-Shinsaibashi): FLAG, aunt + cousin | dates OPEN | CONFIRMED (hotel)
-- Osaka: Varun's own hotel, same area | name + dates OPEN | OPEN
+- Osaka: Varun's own hotel, within walking distance of Dotonbori | name + dates OPEN (to come later) | OPEN
 - Tokyo: THE KNOT TOKYO Shinjuku, in Oct 19 15:00, out Oct 24 10:00; Varun in a separate room | CONFIRMED (hotel card). 5 nights (19, 20, 21, 22, 23). The card's "4 nights" is a summary error (Varun, 2026-10-01); he will glance at the original email to confirm the dates only.
 - Fukuoka Oct 24-28 (4 nights), Varun solo | not booked; shortlist in pools/fukuoka-stay.md (verify live) | OPEN
 - Tokyo Oct 14 night: Muji Hotel Ginza, aunt + cousin only | stated by Varun (card not seen); dates OPEN. Earlier Muji Ginza question RESOLVED.
