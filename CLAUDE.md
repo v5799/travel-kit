@@ -22,3 +22,13 @@ Read profile/*, trips/<trip>/decisions.md, anchors.md, then ask what we are doin
 
 ## Models
 Default Sonnet for planning. Haiku is fine for routine runs (digest, budget log). Escalate only if stuck.
+
+## Cross-repo rules (ops-kit)
+ops-kit owns accounts, action logs, admin tasks, calendar and email drafts, the connector audit and its private/. travel-kit never copies them: refer by path and quote at most one line.
+a. Find ops-kit as a sibling directory (../ops-kit). If it is not there, ask the owner. Never clone it.
+b. Read only the paths in ../ops-kit/INTERFACE.md "What the other repo may read".
+c. NEVER edit, create, commit or push anything in ops-kit. To tell ops-kit something, write a note in travel-kit's own outbox/.
+d. When a decision spans both repos, log it in trips/<trip>/decisions.md tagged [cross] with the path of the ops-kit file.
+e. At the end of any session that read ops-kit, run `git -C ../ops-kit status --short`. It must be empty. If not, revert what this session changed there and tell the owner.
+f. Never read ops-kit's private/ folder.
+The .claude/settings.json deny rules are a backup only (absolute cloud paths; they may not be enforced in every version). Rules c and e are the real guard.

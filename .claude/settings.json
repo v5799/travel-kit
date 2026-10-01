@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(//home/user/ops-kit/**)",
+      "Read(//home/user/ops-kit/private/**)",
+      "Read(//home/user/ops-kit/accounts.csv)",
+      "Read(//home/user/ops-kit/logs/**)"
+    ]
+  }
+}
