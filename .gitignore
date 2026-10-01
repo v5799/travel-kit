@@ -1,0 +1,4 @@
+.env
+*.key
+trips/*/private/
+.DS_Store

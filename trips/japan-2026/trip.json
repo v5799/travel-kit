@@ -1,0 +1,35 @@
+{
+  "isSample": false,
+  "title": "Osaka + Tokyo",
+  "startDate": "2026-10-14",
+  "endDate": "2026-10-24",
+  "travelers": [
+    {
+      "name": "Varun",
+      "legs": "Oct 14-24"
+    },
+    {
+      "name": "Aunt",
+      "legs": "confirm"
+    },
+    {
+      "name": "Cousin",
+      "legs": "confirm"
+    }
+  ],
+  "feedbackUrl": "",
+  "days": [
+    {
+      "date": "2026-10-14",
+      "city": "Osaka",
+      "title": "",
+      "who": [
+        "Varun"
+      ],
+      "items": [],
+      "options": []
+    }
+  ],
+  "food": [],
+  "practical": []
+}
