@@ -36,12 +36,12 @@
           "how_to_get_there": "Leave the airport about 22:30; last Nankai Rapi:t to Namba is reported about 23:00; Airport Express and limousine bus run later (verify live)"
         },
         {
-          "title": "Hotel for the night of Oct 13",
+          "title": "Hotel Nikko Osaka (night of Oct 13, extension planned)",
           "type": "stay",
           "status": "idea",
           "area": "Osaka",
           "notes": [
-            "Not booked yet: to decide (extend Hotel Nikko or an airport hotel)"
+            "Varun's plan: Nikko covers this night; to be extended"
           ]
         }
       ]
@@ -67,16 +67,17 @@
           "station": "Shinsaibashi Station, direct access, Exit 8",
           "arrive_by": "Check-in 15:00 to midnight",
           "notes": [
-            "Check-out Oct 19 by 11:00"
+            "Check-out Oct 19 by 11:00",
+            "Night of Oct 13 also planned here"
           ]
         },
         {
-          "title": "Aunt + cousin arrive Tokyo, night at Muji Hotel Ginza",
+          "title": "Aunt + cousin: one night at Muji Hotel Ginza, Tokyo",
           "type": "stay",
           "status": "booked",
           "area": "Ginza, Tokyo",
           "notes": [
-            "Hotel card not seen; dates to come"
+            "Hotel card not seen"
           ]
         }
       ]
@@ -96,7 +97,7 @@
           "type": "transit",
           "status": "requested",
           "notes": [
-            "Arrive in the afternoon; train time to come"
+            "Arrive in the afternoon"
           ]
         },
         {
@@ -126,6 +127,7 @@
             "en": "I have a reservation for three."
           },
           "notes": [
+            "Booked by cousin",
             "Cash-only and cancel-by: to verify"
           ]
         }
@@ -234,7 +236,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=THE+KNOT+TOKYO+Shinjuku",
           "notes": [
             "Check-out Oct 24 by 10:00",
-            "Aunt + cousin's own booking: dates to verify"
+            "Aunt + cousin: same hotel, own room, Oct 19-24"
           ],
           "address_en": "4-31-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023",
           "address_ja": "〒160-0023 東京都新宿区西新宿4-31-1 (check on Google Maps)"
@@ -320,9 +322,9 @@
         {
           "title": "Varun flies Tokyo to Fukuoka",
           "type": "transit",
-          "status": "idea",
+          "status": "booked",
           "notes": [
-            "Flight booking status to confirm; airline and time to come"
+            "Details to come"
           ]
         }
       ]
@@ -459,8 +461,8 @@
   ],
   "practical": [
     "Sample plan: nothing here is final until Varun confirms.",
-    "Varun: Hotel Nikko Osaka Oct 14-19; THE KNOT TOKYO Shinjuku Oct 19-24. Night of Oct 13 in Osaka: still to book.",
-    "Aunt + cousin: FLAG (Osaka); Tokyo hotels to verify.",
+    "Varun: Hotel Nikko Osaka Oct 13/14-19; THE KNOT TOKYO Shinjuku Oct 19-24.",
+    "Aunt + cousin: Muji Hotel Ginza night of Oct 14; FLAG (Osaka) from Oct 15; THE KNOT Oct 19-24.",
     "Prices and availability: verify live before booking."
   ]
 }

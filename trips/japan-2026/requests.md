@@ -1,4 +1,5 @@
 # Draft booking requests — NOT SENT. Varun submits and pays. Slot availability NOT verified (automated check blocked 2026-10-01).
+Varun's to-book list: see anchors.md. Maruhana is NOT yours to book (cousin booked it).
 Fill [brackets] after checking live. Guest name, phone and email are added by Varun at submission; never stored here.
 
 ## 1. Miko Sushi Ginza, weekday AYCE uni lunch (via Japanticket) — priority 1
