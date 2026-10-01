@@ -13,16 +13,16 @@
 - **Oct 24-28:** Fukuoka solo, hotel not booked (shortlist in pools/fukuoka-stay.md).
 - **Oct 28 Wed:** Varun Fukuoka -> Hong Kong -> Chennai (stated).
 - **Hotels:** FLAG Osaka (aunt/cousin, CONFIRMED, dates OPEN); Varun's Osaka hotel near Dotonbori (OPEN); THE KNOT TOKYO Oct 19-24 (CONFIRMED); Fukuoka (OPEN).
-- **Food ideas (none booked):** Taian (lead Osaka solo night), Kashiwaya, Kitan Hibiki, Sushi Takuma, Miko Sushi uni lunch (Tokyo Tue-Fri), Tokyo local gems, Fukuoka (not researched).
+- **Food ideas (none booked):** Taian (solo dinner, try Oct 16, fallback Oct 18), Kashiwaya (optional, solo only if allowed), Kitan Hibiki, Sushi Takuma, Miko Sushi uni lunch (Tokyo Tue-Fri), Tokyo local gems, Fukuoka (not researched).
 
 ## Still OPEN
 1. Flights: Oct 14 arrivals (all), Oct 24 Tokyo->Fukuoka (airline/time/airport), Oct 28 (airline/times), aunt/cousin Oct 24 flight and airport.
 2. Varun's Osaka hotel name + dates; FLAG dates; Muji Hotel Ginza dates (card not seen).
 3. Aunt/cousin Oct 15 Tokyo->Osaka train time; Oct 19 train times; luggage-forwarding owner.
 4. Fukuoka hotel (not booked); Fukuoka food not researched.
-5. Kashiwaya: who is the 2nd guest and which day (Oct 16 or 17)? Taian: which date?
+5. (RESOLVED 2026-10-02) Kashiwaya: optional/solo only. Taian: Oct 16, fallback Oct 18.
 6. Maruhana: arrive-by, name on booking (first name only here), cash-only?, door photo.
 7. Pokemon Center / TCG shops (Osaka, Tokyo): not researched.
-8. Whether aunt/cousin need a visa for their passports (not stated).
+8. (RESOLVED 2026-10-02) Aunt/cousin Japan entry status: APPROVED.
 
 **What it could not do:** verify any fact outside Varun's statements; flights and times remain unseen bookings.

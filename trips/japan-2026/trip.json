@@ -32,7 +32,7 @@
         {
           "title": "Varun arrives Osaka (direct, ~18:00)",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "area": "Kansai Airport",
           "how_to_get_there": "Nankai Rapi:t to Namba, about 35 min, then walk to hotel near Dotonbori (verify fares live)",
           "notes": [
@@ -43,10 +43,10 @@
         {
           "title": "Aunt + cousin arrive Tokyo, night at Muji Hotel Ginza",
           "type": "stay",
-          "status": "requested",
+          "status": "booked",
           "area": "Ginza, Tokyo",
           "notes": [
-            "Stated by Varun; hotel card not seen; dates to confirm"
+            "Booked per Varun; hotel card not seen; dates to come"
           ]
         }
       ]
@@ -111,16 +111,11 @@
       "items": [],
       "options": [
         {
-          "title": "Varun: Taian dinner (solo-friendly counter, closed Mondays)",
-          "why": "Lead Osaka ultra-premium idea, not booked",
+          "title": "Varun: Taian solo dinner, first choice (closed Mondays)",
+          "why": "Fallback Sun Oct 18; Varun checks live; not booked",
           "area": "Nagahoribashi",
           "walk_minutes": 3,
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Taian+Osaka+Shimanouchi"
-        },
-        {
-          "title": "Kashiwaya lunch (needs 2 guests)",
-          "why": "3-star kaiseki, not booked",
-          "area": "Suita, about 40 min from Shinsaibashi"
         }
       ]
     },
@@ -165,6 +160,12 @@
           "title": "Send big luggage to Tokyo with Yamato Takkyubin",
           "why": "Takes about a day; ask the hotel front desk",
           "area": "Hotel front desk"
+        },
+        {
+          "title": "Varun: Taian solo dinner, fallback date",
+          "why": "If Oct 16 is full; not booked",
+          "area": "Nagahoribashi",
+          "walk_minutes": 3
         }
       ]
     },
@@ -182,7 +183,7 @@
           "time": "12:00",
           "title": "Osaka to Tokyo shinkansen (booked by aunt)",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "notes": [
             "Exact times to come"
           ]
@@ -271,7 +272,7 @@
         {
           "title": "Aunt + cousin fly home from Tokyo (late morning/afternoon)",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "notes": [
             "Airport and flight to come"
           ]
@@ -279,7 +280,7 @@
         {
           "title": "Varun flies Tokyo to Fukuoka",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "notes": [
             "Airline and time to come"
           ]
@@ -323,7 +324,7 @@
         {
           "title": "Fukuoka to Hong Kong to Chennai",
           "type": "transit",
-          "status": "requested",
+          "status": "booked",
           "notes": [
             "Airline and times to come"
           ]
@@ -347,7 +348,7 @@
       "area": "Nagahoribashi",
       "price_band": "about 22,000-41,000 yen (verify live)",
       "status": "idea",
-      "why": "3-star, solo-friendly counter, closed Mondays"
+      "why": "3-star, solo dinner; Oct 16 first, fallback Oct 18; closed Mondays"
     },
     {
       "name": "Kashiwaya Osaka Senriyama",
@@ -355,7 +356,7 @@
       "area": "Suita",
       "price_band": "Kiku about 22,000-33,500 yen (verify live)",
       "status": "idea",
-      "why": "3-star kaiseki, min 2 guests"
+      "why": "Optional: solo only if a platform accepts one guest, otherwise skip"
     },
     {
       "name": "Kitan Hibiki",

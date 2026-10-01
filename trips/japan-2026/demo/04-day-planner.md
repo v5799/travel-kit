@@ -12,8 +12,8 @@ Times marked (est.) are estimates; verify live. Fixed = CONFIRMED/stated; everyt
 
 ## Fri Oct 16: Varun solo (aunt/cousin Kyoto, unconfirmed)
 - Late morning: Dotonbori/Namba area, optional Pokemon Center / TCG shops (unresearched).
-- Lunch option: Kashiwaya (Suita, ~40 min each way est.) needs 2 guests on one platform: not solo-able from Varun alone (2nd guest OPEN). Skip unless a 2nd guest exists.
-- Dinner option: **Taian**, Nagahoribashi (2-3 min from Nagahoribashi Station), solo-friendly counter, dinner entry ~17:30-19:30 (hours unverified), closed Mondays (Oct 16 is Fri: OK). Check price/platform (see 03). Free afternoon block before.
+- Kashiwaya (Suita, ~40 min each way est.): OPTIONAL, solo only if a platform accepts one guest, otherwise skip (Varun 2026-10-02).
+- Dinner option: **Taian** (first choice for Fri Oct 16; fallback Sun Oct 18), Nagahoribashi (2-3 min from Nagahoribashi Station), solo-friendly counter, dinner entry ~17:30-19:30 (hours unverified), closed Mondays (Oct 16 is Fri: OK). Check price/platform (see 03). Free afternoon block before.
 - Late: Bar Nayuta (Varun's favourite; hours unverified).
 
 ## Sat Oct 17: group, deliberately RELAXED
@@ -29,4 +29,4 @@ Times marked (est.) are estimates; verify live. Fixed = CONFIRMED/stated; everyt
 - Dinner: free, or Taian if not used Oct 16 (Sunday: not Monday; verify).
 Never schedule Varun into Kyoto or Nara.
 
-**What it could not do:** no train times, hotel check-in times or live availability; Oct 16 Kashiwaya needs a 2nd guest; Osaka Pokemon/TCG shops unresearched (not placed on the day).
+**What it could not do:** no train times, hotel check-in times or live availability; Osaka Pokemon/TCG shops unresearched (not placed on the day).
