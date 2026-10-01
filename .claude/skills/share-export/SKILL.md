@@ -4,11 +4,14 @@ description: Use to publish the group page data. Writes a sanitized share/trip.j
 ---
 
 Read anchors.md, pools/, decisions.md and write share/trip.json using the schema in trips/japan-2026/trip.json.
-Item fields: time, title, type (meal|transit|activity|stay), status (confirmed|requested|idea), area, address_en, address_ja, maps_url, station, how_to_get_there, how_to_enter, arrive_by, reservation_name, cash_only, cancel_by, notes[], say_at_door{ja,romaji,en}, photo{url,caption}.
+Item fields: time, title, type (meal|transit|activity|stay), status (confirmed|booked|requested|idea), area, address_en, address_ja, maps_url, station, how_to_get_there, how_to_enter, arrive_by, reservation_name, cash_only, cancel_by, notes[], say_at_door{ja,romaji,en}, photo{url,caption}.
 Day fields: date, city, title, who[], items[], options[{title, why, area, walk_minutes, maps_url}].
 Food fields: name, area, city, price_band, status, why, maps_url, photo.
 
 Include only what helps people on the ground: address in English and Japanese, station and exit, how to enter, arrive-by, name on the booking, cash-only, cancel-by, one-line notes.
 STRIP: phone numbers (except 110 and 119), confirmation codes, passport, card or payment info, email addresses, anything from private chats not meant for the group.
-Set status honestly: confirmed only after the owner says it is confirmed. Leave out empty fields.
+Set status honestly: confirmed = a confirmation was seen (hotel card, email); booked = the owner states it is booked but no confirmation has been seen (flights, trains, hotels known only from chat); requested = the owner says a request was sent; idea = not booked. Never upgrade a status.
+Lovable shows a "Booked (per chat)" badge for status booked (text plus icon, not colour alone); that badge lives on the Lovable side. Leave out empty fields.
 Show the owner a diff before they paste it into the Lovable page (public/trip.json).
+
+Validation (run before showing the diff): top-level keys isSample/title/startDate/endDate/travelers/days/food; only the item, day, option and food fields listed above; item type in meal|transit|activity|stay; item and food status in confirmed|booked|requested|idea; dates YYYY-MM-DD; no phone numbers, emails, confirmation codes, passport or card text. Keep isSample true until the owner confirms the plan.
