@@ -1,20 +1,20 @@
 {
-  "isSample": false,
+  "isSample": true,
   "title": "Osaka + Tokyo + Fukuoka",
   "startDate": "2026-10-14",
   "endDate": "2026-10-28",
   "travelers": [
     {
       "name": "Varun",
-      "legs": "Oct 14-28 (Osaka, Tokyo, Fukuoka solo)"
+      "legs": "Oct 14-28 (Fukuoka solo Oct 24-28)"
     },
     {
       "name": "Aunt",
-      "legs": "TBD (with Varun in Osaka/Tokyo)"
+      "legs": "Oct 15 - Oct 24 (exit date OPEN)"
     },
     {
       "name": "Cousin",
-      "legs": "TBD (with Varun in Osaka/Tokyo)"
+      "legs": "Oct 15 - Oct 24 (exit date OPEN)"
     }
   ],
   "feedbackUrl": "",
@@ -22,7 +22,170 @@
     {
       "date": "2026-10-14",
       "city": "Osaka",
+      "title": "Varun lands ~18:00",
+      "who": [
+        "Varun"
+      ],
+      "items": [
+        {
+          "what": "Arrive Osaka (direct)",
+          "status": "idea"
+        }
+      ],
+      "options": []
+    },
+    {
+      "date": "2026-10-15",
+      "city": "Osaka",
+      "title": "Crab dinner",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [
+        {
+          "time": "20:00",
+          "what": "King crab, Maruhana Shinsaibashi (party size assumed 3)",
+          "status": "confirmed"
+        }
+      ],
+      "options": []
+    },
+    {
+      "date": "2026-10-16",
+      "city": "Osaka",
+      "title": "Varun free; aunt/cousin Kyoto (unconfirmed)",
+      "who": [
+        "Varun"
+      ],
+      "items": [],
+      "options": [
+        "Varun's own plans in Osaka; no Kyoto"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "city": "Osaka",
+      "title": "Relaxed day, restaurant night",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [],
+      "options": [
+        "Kitan Hibiki (Oct 17-18, not booked)",
+        "Sushi Takuma (not booked)",
+        "Food markets by day"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "city": "Osaka",
+      "title": "Varun free; aunt/cousin Nara (unconfirmed)",
+      "who": [
+        "Varun"
+      ],
+      "items": [],
+      "options": [
+        "Varun's own plans in Osaka; no Nara"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "city": "Osaka > Tokyo",
+      "title": "Train ~12:00 (proposed)",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [
+        {
+          "what": "Osaka to Tokyo train, luggage forwarding",
+          "status": "proposed"
+        },
+        {
+          "time": "15:00",
+          "what": "Check in THE KNOT TOKYO Shinjuku",
+          "status": "confirmed"
+        }
+      ],
+      "options": []
+    },
+    {
+      "date": "2026-10-20",
+      "city": "Tokyo",
       "title": "",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [],
+      "options": [
+        "Weekday uni lunch ideas (pools/uni.md)"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "city": "Tokyo",
+      "title": "",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [],
+      "options": []
+    },
+    {
+      "date": "2026-10-22",
+      "city": "Tokyo",
+      "title": "",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [],
+      "options": []
+    },
+    {
+      "date": "2026-10-23",
+      "city": "Tokyo",
+      "title": "",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [],
+      "options": []
+    },
+    {
+      "date": "2026-10-24",
+      "city": "Tokyo > Fukuoka",
+      "title": "Aunt/cousin leave after this date; Varun to Fukuoka",
+      "who": [
+        "Varun",
+        "Aunt",
+        "Cousin"
+      ],
+      "items": [
+        {
+          "time": "10:00",
+          "what": "Check out THE KNOT TOKYO",
+          "status": "confirmed"
+        }
+      ],
+      "options": []
+    },
+    {
+      "date": "2026-10-28",
+      "city": "Fukuoka",
+      "title": "Varun flies home, probably via Hong Kong (OPEN)",
       "who": [
         "Varun"
       ],
@@ -30,6 +193,35 @@
       "options": []
     }
   ],
-  "food": [],
-  "practical": []
+  "food": [
+    {
+      "name": "Maruhana Shinsaibashi",
+      "city": "Osaka",
+      "status": "confirmed"
+    },
+    {
+      "name": "Kitan Hibiki",
+      "city": "Osaka",
+      "status": "idea"
+    },
+    {
+      "name": "Sushi Takuma",
+      "city": "Osaka",
+      "status": "idea"
+    },
+    {
+      "name": "Yakiniku Katsuragi",
+      "city": "Sakai",
+      "status": "idea"
+    },
+    {
+      "name": "Yakiniku Ginza Chikamitsu Namiki-dori",
+      "city": "Tokyo",
+      "status": "idea"
+    }
+  ],
+  "practical": [
+    "Hotels: FLAG (Osaka, aunt/cousin), THE KNOT TOKYO Shinjuku Oct 19-24",
+    "All prices and availability: verify live before booking"
+  ]
 }
