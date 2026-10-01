@@ -118,7 +118,7 @@
         },
         {
           "time": "15:00",
-          "what": "Check in THE KNOT TOKYO Shinjuku",
+          "what": "Check in THE KNOT TOKYO Shinjuku (5 nights, out Oct 24)",
           "status": "confirmed"
         }
       ],
@@ -188,18 +188,39 @@
           "time": "10:00",
           "what": "Check out THE KNOT TOKYO",
           "status": "confirmed"
+        },
+        {
+          "what": "Varun flies Tokyo to Fukuoka (airline/time OPEN)",
+          "status": "stated"
         }
       ],
       "options": []
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-25",
       "city": "Fukuoka",
-      "title": "Varun flies home, probably via Hong Kong (OPEN)",
+      "title": "Varun solo (Fukuoka stay not booked)",
       "who": [
         "Varun"
       ],
       "items": [],
+      "options": [
+        "Stay shortlist: Hotel Il Palazzo, Royal Park Canvas Nakasu, Miyako Hotel Hakata (verify live)"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "city": "Fukuoka",
+      "title": "Varun flies home via Hong Kong",
+      "who": [
+        "Varun"
+      ],
+      "items": [
+        {
+          "what": "Varun flies Fukuoka to home via Hong Kong (airline/times OPEN)",
+          "status": "stated"
+        }
+      ],
       "options": []
     }
   ],
@@ -246,7 +267,7 @@
     }
   ],
   "practical": [
-    "Hotels: FLAG (Osaka, aunt/cousin), THE KNOT TOKYO Shinjuku Oct 19-24",
+    "Hotels: FLAG (Osaka, aunt/cousin), THE KNOT TOKYO Shinjuku Oct 19-24, 5 nights",
     "All prices and availability: verify live before booking"
   ]
 }
